@@ -1,13 +1,12 @@
-class MyClass {
-  String classVariable = "I am class-scoped";
-
-  void myMethod() {
-    print(classVariable); // Accessing the class-scoped variable
-  }
+void main() {
+  var arun = Student("babu");
+  var saif = Student("saif");
+  print(arun.name);
+  print(saif.name);
 }
 
-void main() {
-  MyClass myObject = MyClass();
-  // print(myObject.classVariable); // Error: classVariable is not directly accessible here
-  myObject.myMethod(); // Accessing the class-scoped variable through a method
+class Student {
+  String? name;
+
+  Student(this.name);
 }
