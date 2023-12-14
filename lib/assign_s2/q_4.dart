@@ -2,17 +2,17 @@
 // the elements in the list.
 void main()
 {
-List<int>integers=[10,20,30];
-int result=average(integers);
+var integers=[10,20,30];
+var result=average(integers);
 print(result);
 }
-int average(List<double>integers)
+double average(var integers)
 {
  int sum=0;
- for(double val in integers)
+ for(int val in integers)
    {
      sum=sum+val;
    }
-  int result=sum/integers.length;
+  var result=sum/integers.length;
  return result;
 }
