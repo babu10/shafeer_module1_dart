@@ -10,8 +10,10 @@ main()
 
   var l1 = Lion(); //Lion object
   l1.eat(); //calling eat method of animal
+  print(l1.color);
   l1.color = "red"; //assign value  lion object
   print(l1.color); //print color
   l1.color = "black";
   print(l1.color);
+  print(a1.color);
 }
