@@ -1,6 +1,6 @@
 class College{
-  int? id;
-College(int id){
+  int? id; //field
+College(int id){ // constructor
   this.id=id;
 }
 
