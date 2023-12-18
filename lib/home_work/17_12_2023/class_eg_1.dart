@@ -10,13 +10,13 @@ Parent({this.name,this.place});
 }
 class Child extends Parent
 {
-  String?name;
+  String?name1;
   String?place;
-  Child({this.name,this.place});
+  Child({this.name1,this.place});
 
   void printFunct()
   {
-    print("Name:$name place:$place");
+    print("Name:$name1 place:$place");
   }
 }
 
@@ -24,7 +24,7 @@ void main()
 {
   var abu = Parent(name:"Aboobacker",place: "kololamba");
   abu.printFunc();//parent print funct
-  var babu=Child(name:"shafeer",place: "kololamba");
+  var babu=Child(name1:"shafeer",place: "kololamba");
   babu.printFunct(); //child print func //this function override parent //called poly morphism
 
 }
