@@ -6,7 +6,7 @@ class Parent
 class Child extends Parent
 {
 
-  String?name="shafeer"; //override means polymorphism//is it necessary to make function to create super
+  String?name="shafeer"; //override means polymorphism//is it necessary to make function in child to create super
   // good to make object in parent //why not make object//
   String?place="edappal";
   //funct()
