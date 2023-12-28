@@ -24,7 +24,7 @@ void main()
 {
   var abu = Parent(name:"Aboobacker",place: "kololamba");
   abu.printFunc();//parent print funct
-  var babu=Child(name1:"shafeer",place: "kololamba");
+  var babu=Child(name1:"shafeer",place: "kololam");
   babu.printFunct(); //child print func //this function override parent //called poly morphism
 
 }
