@@ -7,3 +7,4 @@ void main() {
   innerFunction();
   print(x); // Prints 10 (global variable)
 }
+// is this closure or closure means?
