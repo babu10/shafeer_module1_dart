@@ -15,6 +15,6 @@ void main()
 {
   var obj=icici();
       obj.account();
-      var obj1=Bank();
+      //var obj1=Bank();
 
 }
